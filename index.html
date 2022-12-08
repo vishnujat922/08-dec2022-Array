@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>javascript array</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            h1[data-news2="news2"]{
+                color:goldenrod;
+            }
+            
+        </style>
+        <script>
+           // before the closing of head tag
+
+        </script>
+    </head>
+    <body>
+        <h1 data-news2="news2"></h1>
+        <p data-news1="news1"></p>
+        <hr/>
+        <h1 data-news3="news3"></h1>
+        <p data-news4="news4"></p>
+        <hr>
+        
+        
+
+        <script src="./js/script.js"></script>
+        <script>
+            //before the closing of body tag
+            let news2={
+                //Decoding why the Congress ended up with its worst performance in Gujarat
+                w1:"decoding",//string
+                w2:'why',//string
+                w3:`why`,//string
+                w4:"the",//string
+                w5:'Congress',//string
+                w6:`ended`,//string
+                w7:"up",//string
+                w8:'with',//string
+                w9:`its`,//string
+                w10:"worst",//string
+                w11:'performance',//string
+                w12:`in`,//string
+                w13:"Gujrat"//string
+            }
+            let n2=news2.w1+' '+news2.w2+" "+news2.w3+` `+news2.w4+" "+news2.w5+' '+news2.w6+` `+news2.w7+" "+news2.w8+` `+news2.w9+" "+news2.w10+' '+news2.w11+` `+news2.w12+" "+news2.w13
+            console.log(n2);
+            document.querySelector('h1[data-news2="news2"]').innerHTML = n2;
+           
+
+          
+          //  document.querySelector('p[data-news1="news1"]').innerHTML = n1
+            var news1={
+                /*Decoding why the Congress ended up with its worst performance in Gujarat
+                Guarat election results: The Congress won only 17 seats, its worst showing in the state ever. And the BJP won 156, its best performance in the state. (PTI)*/
+                w1:'Decoding',//string
+                w2:"why",//string
+                w3:`the`,//string
+                w4:'Congress',//string
+                w5:"ended",//string
+                w6:`up`,//string
+                w7:'with',//string
+                w8:"its",//string
+                w9:`worst`,//string
+                w10:'performance',//string,
+                w11:"in",//string
+                w12:`Gujrat`,//string
+                w13:'gujrat',//string
+                w14:"election",//string
+                w15:`results:`,//string
+                w16:'the',//string
+                w17:"Congress",//string
+                w18:`won`,//string
+                w19:'Only',//string
+                w20:"17",//string
+                w21:`seats,`,//string
+                w22:'its',//string
+                w23:"worst",//string
+                w24:`showing`,//string
+                w25:'in',//string
+                w26:"the",//string
+                w27:`state`,//string
+                w28:'ever.',//string
+                w29:"And",//string
+                w30:`the`,//string
+                w31:'BJP',//string
+                w32:"won",//string
+                w33:`156,`,//number
+                w34:'its',//string
+                w35:"best",//string
+                w36:`performance`,//string
+                w37:'in ',//string
+                w38:"the",//string
+                w39:`state.`,//string
+                w40:'(PTI)' //string   
+            }
+             /*
+            how many ways to access property of js object?
+            1.  objectName.property
+            2.  objectName["property"]
+            3.  objectName[expression]
+            */
+            var n1 = news1.w1+" "+news1.w2+" "+news1.w3+" "+news1.w4+" "+news1.w5+" "+news1.w6+" "+news1.w7+" "+news1.w8+" "+news1.w9+" "+news1.w10+" "+news1.w11+" "+news1.w12+" "+news1.w13+" "+news1.w14+" "+news1.w15+" "+news1.w16+" "+news1.w17+" "+news1.w18+" "+news1.w19+" "+news1.w20+" "+news1.w21+" "+news1.w22+" "+news1.w24+" "+news1.w24+" "+news1.w25+' '+news1.w26+` `+news1.w27+" "+news1.w28+' '+news1.w29+` `+news1.w30+" "+news1.w31+' '+news1.w32+` `+news1.w33+" "+news1.w34+' '+news1.w35+` `+news1.w36+" "+news1.w37+` `+news1.w38+' '+news1.w39+" "+news1.w40;  
+                console.log(n1);
+                document.querySelector('p[data-news1="news1"]').innerHTML = n1;
+                news3 = {
+                    //How did cyclonic storm Mandous get its name?
+                    w1: "How",//string
+                    w2:'did',//string
+                    w3:`cyclonic`,//string
+                    w4:"storm",//string
+                    w5:'mandous',//string
+                    w6:`get`,//string
+                    w7:'Its',//string
+                    w8:"name?"//string
+                }
+                const n3 = news3.w1+" "+news3.w2+' '+news3.w3+` `+news3.w4+" "+news3.w5+' '+news3.w6+` `+news3.w7+" "+news3.w
+             // 2nd way of js output
+                    //window.alert()
+                    window.alert('h1[data-"news3=news3"]'+n3);         
+                   news4={
+                        w1:" How",//string
+                        w2:'did',//string
+                        w3:`cyclonic`,//string
+                        w4:"storm",//string
+                        w5:'mandous',//string
+                        w6:`get`,//string//string
+                        w7:"Its",//string
+                        w8:'name?',//string
+                        w9:`People`,//string
+                        w10:"stand",//string
+                        w11:'near',//string
+                        w12:`a`,//string
+                        w13:" stone",//string
+                        w14:'ledge',//string
+                        w15:`amid`,//string
+                        w16:"Guesty",//string
+                        w17:'winds',//string
+                        w18:`as`,//string
+                        w19:"dark",//string
+                        w20:'clouds',//string
+                        w21:`loom`,//string
+                        w22:"Over",//string
+                        w23:'The',//string
+                        w24:`kasimedu`,//string
+                        w25:"fishing",//string
+                        w26:'harbour',//string
+                        w27:`in`,//string
+                        w28:"chennai",//string
+                        w29:'on',//string
+                        w30:`Thursday.`//string
+                    }
+                    n4 =news4.w1+' '+news4.w2+" "+news4.w3+` `+news4.w4+" "+news4.w5+' '+news4.w6+` `+news4.w7+' '+news4.w8+" "+news4.w9+` `+news4.w10+" "+news4.w11+' '+news4.w12+` `+news4.w13+' '+news4.w14+" "+news4.w15+` `+news4.w16+" "+news4.w17+' '+news4.w18+` `+news4.w19+' '+news4.w20+" "+news4.w21+` `+news4.w22+" "+news4.w23+' '+news4.w24+` `+news4.w25+' '+news4.w26+" "+news4.w27+` `+news4.w28+" "+news4.w29+' '+news4.w30                    
+                    console.log(n4);
+                    document.querySelector('p[data-news4="news4"]').innerHTML = n4;
+                    
+                   /* news5={
+                       
+                        w1="",
+                        w2='',
+                        w3=``, 
+                        w4="",
+                        w5='',
+                        w6=``, 
+                        w7="",
+                        w8='',
+                        w9=``,
+                        w10="",
+                        w11='',
+                        w12=``, 
+                        w13="",
+                        w14='',
+                        w15=``, 
+                        w16="",
+                        w17='',
+                        w=``, 
+                        w="",
+                        w='',
+                        w=``,
+                    }*/
+
+        </script>
+    </body>
+</html>
